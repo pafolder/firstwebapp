@@ -1,0 +1,383 @@
+2022-09-05 22:10:38,469 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting FirstwebappApplication using Java 18.0.1.1 on SPH with PID 5644 (C:\Users\SP\IdeaProjects\firstwebapp\target\classes started by SP in C:\Users\SP\IdeaProjects\firstwebapp)
+2022-09-05 22:10:38,470 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-05 22:10:38,496 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-05 22:10:38,496 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-05 22:10:39,009 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-05 22:10:39,016 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:10:39,017 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-05 22:10:39,017 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.22]
+2022-09-05 22:10:39,061 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-05 22:10:39,063 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 566 ms
+2022-09-05 22:10:39,194 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2022-09-05 22:10:39,275 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-05 22:10:39,282 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:10:39,297 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-05 22:10:39,305 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started FirstwebappApplication in 1.021 seconds (process running for 1.463)
+2022-09-05 22:10:39,373 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
+2022-09-05 22:10:39,864 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-05 22:10:39,864 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-05 22:10:39,865 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-09-05 22:10:59,295 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting FirstwebappApplication using Java 18.0.1.1 on SPH with PID 4960 (C:\Users\SP\IdeaProjects\firstwebapp\target\classes started by SP in C:\Users\SP\IdeaProjects\firstwebapp)
+2022-09-05 22:10:59,297 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-05 22:10:59,322 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-05 22:10:59,323 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-05 22:10:59,772 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-05 22:10:59,776 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:10:59,777 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-05 22:10:59,777 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.22]
+2022-09-05 22:10:59,811 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-05 22:10:59,812 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 488 ms
+2022-09-05 22:10:59,917 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2022-09-05 22:10:59,993 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-05 22:11:00,000 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:11:00,031 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-05 22:11:00,037 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started FirstwebappApplication in 0.912 seconds (process running for 1.324)
+2022-09-05 22:11:00,107 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
+2022-09-05 22:11:00,120 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-05 22:11:00,120 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-05 22:11:00,121 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-09-05 22:11:16,199 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting FirstwebappApplication using Java 18.0.1.1 on SPH with PID 17856 (C:\Users\SP\IdeaProjects\firstwebapp\target\classes started by SP in C:\Users\SP\IdeaProjects\firstwebapp)
+2022-09-05 22:11:16,201 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-05 22:11:16,229 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-05 22:11:16,230 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-05 22:11:16,752 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-05 22:11:16,757 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:11:16,757 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-05 22:11:16,757 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.22]
+2022-09-05 22:11:16,800 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-05 22:11:16,800 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 570 ms
+2022-09-05 22:11:16,913 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2022-09-05 22:11:17,003 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-05 22:11:17,011 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:11:17,022 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-05 22:11:17,028 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started FirstwebappApplication in 1.013 seconds (process running for 1.703)
+2022-09-05 22:11:17,110 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-05 22:11:17,111 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-05 22:11:17,111 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-09-05 22:11:17,116 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
+2022-09-05 22:11:20,308 ERROR ru.pafolder.firstwebapp.controllers.SPController [http-nio-8080-exec-2] Logger is called
+2022-09-05 22:11:44,498 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
+2022-09-05 22:14:43,463 WARN ru.pafolder.firstwebapp.FirstwebappApplication [main] org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2022-09-05 22:14:43,577 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
+2022-09-05 22:15:43,023 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting FirstwebappApplication using Java 18.0.1.1 on SPH with PID 17612 (C:\Users\SP\IdeaProjects\firstwebapp\target\classes started by SP in C:\Users\SP\IdeaProjects\firstwebapp)
+2022-09-05 22:15:43,025 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-05 22:15:43,050 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-05 22:15:43,050 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-05 22:15:43,510 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-05 22:15:43,515 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:15:43,516 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-05 22:15:43,516 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.22]
+2022-09-05 22:15:43,552 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-05 22:15:43,552 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 501 ms
+2022-09-05 22:15:43,653 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2022-09-05 22:15:43,732 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-05 22:15:43,740 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:15:43,750 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-05 22:15:43,755 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started FirstwebappApplication in 0.9 seconds (process running for 1.292)
+2022-09-05 22:15:43,814 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
+2022-09-05 22:15:52,525 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting FirstwebappApplication using Java 18.0.1.1 on SPH with PID 17852 (C:\Users\SP\IdeaProjects\firstwebapp\target\classes started by SP in C:\Users\SP\IdeaProjects\firstwebapp)
+2022-09-05 22:15:52,527 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-05 22:15:52,552 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-05 22:15:52,552 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-05 22:15:53,004 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-05 22:15:53,008 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:15:53,009 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-05 22:15:53,009 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.22]
+2022-09-05 22:15:53,043 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-05 22:15:53,044 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 490 ms
+2022-09-05 22:15:53,147 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2022-09-05 22:15:53,219 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-05 22:15:53,226 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:15:53,245 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-05 22:15:53,251 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started FirstwebappApplication in 0.897 seconds (process running for 1.321)
+2022-09-05 22:15:53,305 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
+2022-09-05 22:16:05,667 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting FirstwebappApplication using Java 18.0.1.1 on SPH with PID 17720 (C:\Users\SP\IdeaProjects\firstwebapp\target\classes started by SP in C:\Users\SP\IdeaProjects\firstwebapp)
+2022-09-05 22:16:05,669 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-05 22:16:05,695 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-05 22:16:05,696 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-05 22:16:06,151 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-05 22:16:06,156 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:16:06,156 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-05 22:16:06,156 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.22]
+2022-09-05 22:16:06,190 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-05 22:16:06,192 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 495 ms
+2022-09-05 22:16:06,294 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2022-09-05 22:16:06,367 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-05 22:16:06,375 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:16:06,393 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-05 22:16:06,398 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started FirstwebappApplication in 0.903 seconds (process running for 1.315)
+2022-09-05 22:16:06,452 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
+2022-09-05 22:16:49,036 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting FirstwebappApplication using Java 18.0.1.1 on SPH with PID 7672 (C:\Users\SP\IdeaProjects\firstwebapp\target\classes started by SP in C:\Users\SP\IdeaProjects\firstwebapp)
+2022-09-05 22:16:49,038 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-05 22:16:49,063 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-05 22:16:49,063 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-05 22:16:49,514 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-05 22:16:49,519 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:16:49,519 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-05 22:16:49,519 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.22]
+2022-09-05 22:16:49,554 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-05 22:16:49,555 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 490 ms
+2022-09-05 22:16:49,655 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2022-09-05 22:16:49,726 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-05 22:16:49,733 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:16:49,751 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-05 22:16:49,756 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started FirstwebappApplication in 0.894 seconds (process running for 1.29)
+2022-09-05 22:16:49,812 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
+2022-09-05 22:17:17,480 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting FirstwebappApplication using Java 18.0.1.1 on SPH with PID 13572 (C:\Users\SP\IdeaProjects\firstwebapp\target\classes started by SP in C:\Users\SP\IdeaProjects\firstwebapp)
+2022-09-05 22:17:17,482 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-05 22:17:17,507 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-05 22:17:17,507 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-05 22:17:17,953 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-05 22:17:17,958 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:17:17,958 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-05 22:17:17,958 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.22]
+2022-09-05 22:17:17,992 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-05 22:17:17,993 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 486 ms
+2022-09-05 22:17:18,096 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2022-09-05 22:17:18,168 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-05 22:17:18,176 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:17:18,194 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-05 22:17:18,200 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started FirstwebappApplication in 0.891 seconds (process running for 1.294)
+2022-09-05 22:17:18,274 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-05 22:17:18,275 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-05 22:17:18,276 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-09-05 22:21:37,877 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting FirstwebappApplication using Java 18.0.1.1 on SPH with PID 5772 (C:\Users\SP\IdeaProjects\firstwebapp\target\classes started by SP in C:\Users\SP\IdeaProjects\firstwebapp)
+2022-09-05 22:21:37,879 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-05 22:21:37,907 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-05 22:21:37,907 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-05 22:21:38,419 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-05 22:21:38,425 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:21:38,425 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-05 22:21:38,425 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.22]
+2022-09-05 22:21:38,465 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-05 22:21:38,465 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 557 ms
+2022-09-05 22:21:38,490 INFO org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [restartedMain] Autowired annotation is not supported on static fields: private static org.springframework.context.ApplicationContext ru.pafolder.firstwebapp.FirstwebappApplication.context
+2022-09-05 22:21:38,575 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2022-09-05 22:21:38,653 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-05 22:21:38,661 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:21:38,677 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-05 22:21:38,686 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started FirstwebappApplication in 0.998 seconds (process running for 1.425)
+2022-09-05 22:24:09,469 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting FirstwebappApplication using Java 18.0.1.1 on SPH with PID 8552 (C:\Users\SP\IdeaProjects\firstwebapp\target\classes started by SP in C:\Users\SP\IdeaProjects\firstwebapp)
+2022-09-05 22:24:09,470 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-05 22:24:09,495 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-05 22:24:09,495 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-05 22:24:09,945 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-05 22:24:09,949 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:24:09,950 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-05 22:24:09,950 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.22]
+2022-09-05 22:24:09,984 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-05 22:24:09,985 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 489 ms
+2022-09-05 22:24:10,008 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2022-09-05 22:24:10,088 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2022-09-05 22:24:10,162 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-05 22:24:10,169 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:24:10,188 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-05 22:24:10,194 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started FirstwebappApplication in 0.895 seconds (process running for 1.318)
+2022-09-05 22:24:10,274 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-05 22:24:10,274 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-05 22:24:10,274 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-09-05 22:25:12,851 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2022-09-05 22:25:12,858 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:25:12,858 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2022-09-05 22:25:12,858 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-05 22:25:12,862 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:25:12,864 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:25:12,901 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting FirstwebappApplication using Java 18.0.1.1 on SPH with PID 8552 (C:\Users\SP\IdeaProjects\firstwebapp\target\classes started by SP in C:\Users\SP\IdeaProjects\firstwebapp)
+2022-09-05 22:25:12,901 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-05 22:25:12,992 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-05 22:25:12,993 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:25:12,993 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-05 22:25:12,993 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.22]
+2022-09-05 22:25:13,003 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-05 22:25:13,003 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 100 ms
+2022-09-05 22:25:13,007 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2022-09-05 22:25:13,026 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2022-09-05 22:25:13,044 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-05 22:25:13,047 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:25:13,048 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-05 22:25:13,050 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started FirstwebappApplication in 0.163 seconds (process running for 64.174)
+2022-09-05 22:25:13,051 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-09-05 22:25:13,098 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-05 22:25:13,098 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-05 22:25:13,099 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-09-05 22:27:47,947 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting FirstwebappApplication using Java 18.0.1.1 on SPH with PID 2896 (C:\Users\SP\IdeaProjects\firstwebapp\target\classes started by SP in C:\Users\SP\IdeaProjects\firstwebapp)
+2022-09-05 22:27:47,948 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-05 22:27:47,973 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-05 22:27:47,973 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-05 22:27:48,430 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-09-05 22:27:48,434 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:27:48,435 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-05 22:27:48,435 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.0.22]
+2022-09-05 22:27:48,470 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-05 22:27:48,470 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 496 ms
+2022-09-05 22:27:48,492 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2022-09-05 22:27:48,492 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2022-09-05 22:27:48,492 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.context.annotation.internalCommonAnnotationProcessor
+2022-09-05 22:27:48,492 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.context.event.internalEventListenerProcessor
+2022-09-05 22:27:48,492 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.context.event.internalEventListenerFactory
+2022-09-05 22:27:48,492 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] firstwebappApplication
+2022-09-05 22:27:48,492 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-05 22:27:48,492 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] SPController
+2022-09-05 22:27:48,492 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] SPRestController
+2022-09-05 22:27:48,493 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2022-09-05 22:27:48,493 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2022-09-05 22:27:48,493 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] propertySourcesPlaceholderConfigurer
+2022-09-05 22:27:48,493 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration
+2022-09-05 22:27:48,493 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] websocketServletWebServerCustomizer
+2022-09-05 22:27:48,493 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration
+2022-09-05 22:27:48,493 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+2022-09-05 22:27:48,493 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] tomcatServletWebServerFactory
+2022-09-05 22:27:48,493 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration
+2022-09-05 22:27:48,493 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] servletWebServerFactoryCustomizer
+2022-09-05 22:27:48,493 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] tomcatServletWebServerFactoryCustomizer
+2022-09-05 22:27:48,493 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2022-09-05 22:27:48,494 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.context.internalConfigurationPropertiesBinderFactory
+2022-09-05 22:27:48,494 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-05 22:27:48,494 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.context.properties.BoundConfigurationProperties
+2022-09-05 22:27:48,494 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2022-09-05 22:27:48,494 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] server-org.springframework.boot.autoconfigure.web.ServerProperties
+2022-09-05 22:27:48,494 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] webServerFactoryCustomizerBeanPostProcessor
+2022-09-05 22:27:48,494 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] errorPageRegistrarBeanPostProcessor
+2022-09-05 22:27:48,494 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+2022-09-05 22:27:48,494 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] dispatcherServlet
+2022-09-05 22:27:48,494 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties
+2022-09-05 22:27:48,494 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+2022-09-05 22:27:48,494 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] dispatcherServletRegistration
+2022-09-05 22:27:48,494 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
+2022-09-05 22:27:48,494 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] taskExecutorBuilder
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] applicationTaskExecutor
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] error
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] beanNameViewResolver
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] conventionErrorViewResolver
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] spring.web-org.springframework.boot.autoconfigure.web.WebProperties
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] errorAttributes
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] basicErrorController
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] errorPageCustomizer
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] preserveErrorControllerTargetClassPostProcessor
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] requestMappingHandlerAdapter
+2022-09-05 22:27:48,495 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] welcomePageHandlerMapping
+2022-09-05 22:27:48,496 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] localeResolver
+2022-09-05 22:27:48,496 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] themeResolver
+2022-09-05 22:27:48,496 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] flashMapManager
+2022-09-05 22:27:48,496 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] mvcConversionService
+2022-09-05 22:27:48,496 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] mvcValidator
+2022-09-05 22:27:48,496 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] mvcContentNegotiationManager
+2022-09-05 22:27:48,496 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] requestMappingHandlerMapping
+2022-09-05 22:27:48,496 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] mvcPatternParser
+2022-09-05 22:27:48,496 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] mvcUrlPathHelper
+2022-09-05 22:27:48,496 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] mvcPathMatcher
+2022-09-05 22:27:48,496 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] viewControllerHandlerMapping
+2022-09-05 22:27:48,496 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] beanNameHandlerMapping
+2022-09-05 22:27:48,496 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] routerFunctionMapping
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] resourceHandlerMapping
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] mvcResourceUrlProvider
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] defaultServletHandlerMapping
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] handlerFunctionAdapter
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] mvcUriComponentsContributor
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] httpRequestHandlerAdapter
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] simpleControllerHandlerAdapter
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] handlerExceptionResolver
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] mvcViewResolver
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] mvcHandlerMappingIntrospector
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] viewNameTranslator
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] defaultViewResolver
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] viewResolver
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] requestContextFilter
+2022-09-05 22:27:48,497 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] formContentFilter
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] mbeanExporter
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] objectNamingStrategy
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] mbeanServer
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] spring.jmx-org.springframework.boot.autoconfigure.jmx.JmxProperties
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] springApplicationAdminRegistrar
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] forceAutoProxyCreatorToUseClassProxying
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] applicationAvailability
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] standardJacksonObjectMapperBuilderCustomizer
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] jacksonObjectMapperBuilder
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration
+2022-09-05 22:27:48,498 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] parameterNamesModule
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] jacksonObjectMapper
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] jsonComponentModule
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] jsonMixinModule
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] lifecycleProcessor
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] stringHttpMessageConverter
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] mappingJackson2HttpMessageConverter
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] messageConverters
+2022-09-05 22:27:48,499 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2022-09-05 22:27:48,500 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2022-09-05 22:27:48,500 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+2022-09-05 22:27:48,500 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+2022-09-05 22:27:48,500 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+2022-09-05 22:27:48,500 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2022-09-05 22:27:48,500 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] scheduledBeanLazyInitializationExcludeFilter
+2022-09-05 22:27:48,500 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] taskSchedulerBuilder
+2022-09-05 22:27:48,500 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2022-09-05 22:27:48,500 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafJava8TimeDialect
+2022-09-05 22:27:48,500 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] java8TimeDialect
+2022-09-05 22:27:48,500 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration
+2022-09-05 22:27:48,500 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] thymeleafViewResolver
+2022-09-05 22:27:48,500 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration
+2022-09-05 22:27:48,500 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] defaultTemplateResolver
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.TemplateEngineConfigurations$DefaultTemplateEngineConfiguration
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] templateEngine
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] spring.thymeleaf-org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] restTemplateBuilderConfigurer
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] restTemplateBuilder
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] tomcatWebServerFactoryCustomizer
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] characterEncodingFilter
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] localeCharsetMappingsCustomizer
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] multipartConfigElement
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] multipartResolver
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] restartingClassPathChangedEventListener
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] classPathFileSystemWatcher
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] classPathRestartStrategy
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] fileSystemWatcherFactory
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] conditionEvaluationDeltaLoggingListener
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] liveReloadServer
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] optionalLiveReloadServer
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] liveReloadServerEventListener
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
+2022-09-05 22:27:48,501 WARN ru.pafolder.firstwebapp.FirstwebappApplication [restartedMain] org.springframework.aop.config.internalAutoProxyCreator
+2022-09-05 22:27:48,581 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2022-09-05 22:27:48,656 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-05 22:27:48,668 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-05 22:27:48,683 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-05 22:27:48,688 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started FirstwebappApplication in 0.917 seconds (process running for 1.315)
+2022-09-05 22:27:49,148 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-05 22:27:49,148 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-05 22:27:49,149 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms

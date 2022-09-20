@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Getting Started: My First Web Application</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p>It's your Greeting!
+<!--<p th:text="${messages[2]}"> text </p>-->
+</p>
+
+<!--<table>-->
+<!--    <tr> Title </tr>-->
+<!--    <th> column </th>-->
+<!--    <hr> </hr>-->
+<!--    <tr th:each="msg:${messages}">-->
+<!--    <td th:each="ms:${messages}" th:utext="${msg}">-->
+<!--        <td th:utext="${ms}"> </td>-->
+<!--    </td>-->
+<!--    </tr>-->
+
+<!--</table>-->
+<th:block th:each="msg:${messages}">
+    <a th:utext="${msg}"> </a>
+</th:block>
+<p Hello!> </p>
+
+<table>
+    <tr th:each="mmm:${messages}">
+    <td th:each="msg:${messages}" th:utext="${msg}"></td>
+    </tr>
+</table>
+
+<form action="/input" method="POST">
+    <label th:text="${initText}"> Введите своё имя:</label>
+    <input type="text" th:value="${initText + '+added'}" name="firstName" id="id1">
+    <!--<input> type="submit" name = "submit" id = "id2" </input>-->
+    </form>
+
+</body>
+</html>
