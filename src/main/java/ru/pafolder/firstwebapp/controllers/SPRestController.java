@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.awt.*;
 import java.io.IOException;
 
 @RestController
@@ -15,6 +16,7 @@ public class SPRestController {
     @PostMapping(value="/TestInputName")
     public void nameInput(HttpServletResponse response, @RequestParam("answer") String answer) throws IOException {
         System.out.println(answer);
+        Toolkit.getDefaultToolkit().beep();
         response.sendRedirect("/");
     }
 /*
